@@ -1,0 +1,64 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+/* Define una fuete moderna un color de fondo claro  y algo de espacio general */
+
+.container { 
+    max-width: 600px;
+    margin:  auto;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}   
+/* Crea un contenerdor central con bordes redondeados y sombra suave */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+/* El formulario esta en columna vertical con separacion entre elementos */
+
+input, select, button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+
+}
+/* Estilo uniforme y bonito para los inputs */
+
+button {
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #218838;
+}
+/* El boton cambia de color al pasar el cursor */
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+li {
+    background: #e9ecef;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* cada recurso se ve como una caja separa con su propio estilo */
+.adquirido{
+    text-decoration: line-through;
+    color: #6c757d;
+}
+/* cuando un recurso es adquirido se tachara y se vera gris */

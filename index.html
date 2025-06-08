@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main class="container"> // Contenedor principal de la aplicación
+    <main class="container"> 
         <h1>Gestor de Recursos</h1>
         
-        <form id="recursos"> // Formulario para añadir recursos
+        <form id="form">
             <input type="text" id="recurso" placeholder="Nombre del recurso" required>
             <input type="text" id="categoria" placeholder="categoria" required>
-            <select id="prioridad" required> // Selector para la prioridad del recurso
+            <select id="prioridad" required> 
                 <option value="" disabled selected>Prioridad</option>
                 <option value="alta">Alta</option>
                 <option value="media">Media</option>
@@ -22,7 +22,7 @@
             <button type="submit">Añadir Recurso</button>
         </form>
 
-        <ul id="lista-recursos"> // Lista para mostrar los recursos añadidos
+        <ul id="lista"> </ul> 
             <!-- Los recursos se añadirán aquí dinámicamente -->    
 
     </main>
